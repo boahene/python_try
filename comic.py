@@ -1,5 +1,5 @@
 print("***LET's HAVE SOME FUN ON COMIC***")
-print("🚫 rules of the game - YES/NO (BLOCK LETTERS ONLY) ")
+print("⚓YES/NO (BLOCK LETTERS ONLY)⚓")
 print()
 spiderman = input("Do you like sitting on top of buildings and taking a walk along the hallways?   ")
 if spiderman == "YES":
@@ -21,4 +21,9 @@ if moongirl == "YES":
 else:
   print("You could have partied with moon girl now")
 
-print("THANKS FOR YOUR TIME")
+print()
+captain = input("Are you honest, up-front, loyal, extremely noble, and unfailingly dependable. I hope your strengths don't lie in creativity or brilliance ")
+if captain == "YES":
+  print("You have the traits of Captain America")
+else:
+  print("watch Captain America")
