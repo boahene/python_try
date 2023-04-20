@@ -1,0 +1,26 @@
+while True:
+ print("Simple maths Game")
+ print()
+ numb1 = input("add first number ")
+ numb2 = input("add second number ")
+
+ sub = int(numb1) - int(numb2)
+ add = int(numb1) + int(numb2)
+ mult = int(numb1) * int(numb2)
+
+ print("the sum of your two numbers is", add)
+ print("the sub of the two numbers is", sub)
+ print("the multiplication of the two numbers", mult)
+ print()
+
+
+ mathsContinue = input("Do you wanna continue> ")
+ if mathsContinue == "no":
+  break
+ elif mathsContinue == "yes":
+   continue
+ else:
+    print("nice having you around")
+    exit()
+    
+ print("maths terminated")
